@@ -14,7 +14,9 @@ is the distance between the two particles, <a href="https://www.codecogs.com/eqn
 
 The force acting on particle i can be evaluated from the partial derivative of the expression above with respect to the position of particle i, namely
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=f_{on\:&space;i}=-\frac{\partial&space;U}{\partial&space;r_i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_{on\:&space;i}=-\frac{\partial&space;U}{\partial&space;r_i}" title="f_{on\: i}=-\frac{\partial U}{\partial r_i}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=f_{on\:&space;i}=-\frac{\partial&space;U}{\partial&space;r_i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_{on\:&space;i,x}=-\frac{\partial&space;U}{\partial&space;x_i}" title="f_{on\: i,x}=-\frac{\partial U}{\partial x_i}" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=f_{on\:&space;i}=-\frac{\partial&space;U}{\partial&space;r_i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_{on\:&space;i,z}=-\frac{\partial&space;U}{\partial&space;z_i}" title="f_{on\: i,z}=-\frac{\partial U}{\partial z_i}" /></a>
 
 TASKS: In the harmonic_motion.py program you will update all the functions to be able to work on the lists with the masses, coordinates, velocities, and forces of the two particles.
 
