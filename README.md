@@ -10,11 +10,11 @@ where
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=r_{12}=|r_1-r_2|" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_{12}=|r_1-r_2|" title="r_{12}=|r_1-r_2|" /></a>
 
-is the distance between the two particles, <a href="https://www.codecogs.com/eqnedit.php?latex=x_{eq}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_{eq}" title="r_{eq}" /></a> is the equilibrium position of the spring connecting particle 1 and 2, <a href="https://www.codecogs.com/eqnedit.php?latex=k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?k" title="k" /></a> is the force constant of that spring.
+is the distance between the two particles, <a href="https://www.codecogs.com/eqnedit.php?latex=r_{eq}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_{eq}" title="r_{eq}" /></a> is the equilibrium position of the spring connecting particle 1 and 2, <a href="https://www.codecogs.com/eqnedit.php?latex=k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?k" title="k" /></a> is the force constant of that spring.
 
 The force acting on particle i can be evaluated from the partial derivative of the expression above with respect to the position of particle i, namely
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=f_{on\:&space;i}=-\frac{\partial&space;U}{\partial&space;x_i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_{on\:&space;i}=-\frac{\partial&space;U}{\partial&space;x_i}" title="f_{on\: i}=-\frac{\partial U}{\partial x_i}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=f_{on\:&space;i}=-\frac{\partial&space;U}{\partial&space;r_i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_{on\:&space;i}=-\frac{\partial&space;U}{\partial&space;r_i}" title="f_{on\: i}=-\frac{\partial U}{\partial r_i}" /></a>
 
 TASKS: In the harmonic_motion.py program you will update all the functions to be able to work on the lists with the masses, coordinates, velocities, and forces of the two particles.
 
