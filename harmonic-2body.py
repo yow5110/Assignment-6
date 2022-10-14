@@ -69,7 +69,7 @@ import matplotlib.animation as ani
 # Define the function that performs a single step of the animation
 def animate(i):
     global y
-    y = ode.move_RK2(f, y, dt)
+    y= #exactly the same as above, choose your favorite ODE solver here.
     a.set_data([y[0],y[4]],[y[2],y[6]]) # we update the plot
     return a,
 
