@@ -8,7 +8,7 @@ To calculate the force acting on each particle, we can start from the expression
 
 where 
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=r_{12}=|r_1-r_2|=\sqrt((x_1-x_2)^2+(z_1-z_2)^2)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_{12}=|r_1-r_2|=\sqrt((x_1-x_2)^2+(z_1-z_2)^2)" title="" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=r_{12}=|r_1-r_2|=((x_1-x_2)^2+(z_1-z_2)^2)^\frac{1}{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_{12}=|r_1-r_2|=((x_1-x_2)^2+(z_1-z_2)^2)^\frac{1}{2}" title="" /></a>
 
 is the distance between the two particles, <a href="https://www.codecogs.com/eqnedit.php?latex=r_{eq}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_{eq}" title="r_{eq}" /></a> is the equilibrium position of the spring connecting particle 1 and 2, <a href="https://www.codecogs.com/eqnedit.php?latex=k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?k" title="k" /></a> is the force constant of that spring.
 
