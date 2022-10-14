@@ -4,11 +4,11 @@ In this project we will simulate two particles connected by a spring, using an O
 
 To calculate the force acting on each particle, we can start from the expression of the potential energy of the system
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=U^{el}=\frac{1}{2}k(r_{12}-r_{eq})^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?U^{el}=\frac{1}{2}k(r_{12}-r_{eq})^2" title="U^{el}=\frac{1}{2}k(r_{12}-r_{eq})^2" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=U^{el}=\frac{1}{2}k(r_{12}-r_{eq})^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?U=\frac{1}{2}k(r_{12}-r_{eq})^2" title="U=\frac{1}{2}k(r_{12}-r_{eq})^2" /></a>
 
 where 
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=r_{12}=|r_1-r_2|" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_{12}=|r_1-r_2|" title="r_{12}=|r_1-r_2|" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=r_{12}=|r_1-r_2|= \sqrt((x_1-x_2)^2+(z_1-z_2)^2) " target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_{12}=|r_1-r_2| = \sqrt((x_1-x_2)^2+(z_1-z_2)^2)" title="" /></a>
 
 is the distance between the two particles, <a href="https://www.codecogs.com/eqnedit.php?latex=r_{eq}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_{eq}" title="r_{eq}" /></a> is the equilibrium position of the spring connecting particle 1 and 2, <a href="https://www.codecogs.com/eqnedit.php?latex=k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?k" title="k" /></a> is the force constant of that spring.
 
