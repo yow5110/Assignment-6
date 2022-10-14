@@ -20,7 +20,7 @@ The force acting on particle i can be evaluated from the partial derivative of t
 
 TASK 1: In the harmonic_motion.py program you will update two sections: the f() function block, where you'll work on calculating the forces on the two particles, and the two lines with the comment "choose your favorite ODE solver here", where you choose between Euler and RK2. Generate the trajectories of the two particles. An example output using a the Runge-Kutta 2nd order solver is attached in "example trajectory.png".
 
-TASK 2: Comment out the entire "ODE solving and plotting" section, and uncomment the second "ODE solving and animation" section to activate it. You should see an animation of the simulation. And example output is given in "example animation.gif". Describe how the particles's motion can be considered a superposition of multiple types of simple motions. Did you expect this before the simulation by just looking at the initial conditions? 
+TASK 2: Comment out the entire "ODE solving and plotting" section, and uncomment the second "ODE solving and animation" section to activate it. You should see an animation of the simulation. And example output is given in "example animation.gif". You don't need to generate the gif - just make the the code generates the animation in your popup window and finalize your code that way before submission. Describe how the particles's motion can be considered a superposition of multiple types of simple motions. Did you expect this before the simulation by just looking at the initial conditions? 
 
 
 
