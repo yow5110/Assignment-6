@@ -1,6 +1,6 @@
 # Week 7 Problem 2
 
-Make a copy of your code in Problem 1 here and remove the entire plotting section, replacing to with the animation code provided here. 
+Make a copy of your code in Problem 1 here and remove the entire plotting section, replacing it with the animation code provided here. 
 
 You should see an animation of the simulation. And example output is given in "example animation.gif". 
 
