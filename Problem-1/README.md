@@ -22,7 +22,7 @@ TASK 1: In the harmonic_motion.py program, choose a timestep dt based on the per
 
 TASK 2: Finish the rest of the code. This includes the diffeq() function where you calculate all forces, choosing an ODE solver, and plotting the trajectories of the two particles. An example output using a the Runge-Kutta 2nd order solver is attached in "example trajectory.png".
 
-TASK 3: On top of the existing plot, plot the trajectory of the center-of-mass of the two-particle system. Estimate the center-of-mass velocity and explain how it relates to the initial velocities provided in the simuation. If it's not clear to you why we're doing this or what motion are the two particles performing, proceed to Problem 2 and return back to this task later.
+TASK 3: On top of the existing plot, plot the trajectory of the center-of-mass of the two-particle system. Estimate the center-of-mass velocity and explain how it relates to the initial velocities and masses of the two particles provided in the simuation. If it's not clear to you why we're doing this or what motion are the two particles performing, proceed to Problem 2 and return back to this task later.
 
 
 
