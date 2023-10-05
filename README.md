@@ -1,6 +1,6 @@
-# Week 7 Assignment 
+# Week 7 Problem 1 
 
-In this project we will simulate two particles connected by a spring, using an ODE solver of your choice to integrate the equation of motion. 
+In this problem we will simulate two particles connected by a spring, using an ODE solver of your choice to integrate the equation of motion. 
 
 To calculate the force acting on each particle, we can start from the expression of the potential energy of the system
 
@@ -18,10 +18,11 @@ The force acting on particle i can be evaluated from the partial derivative of t
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=f_{on\:&space;i}=-\frac{\partial&space;U}{\partial&space;r_i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_{on\:&space;i,z}=-\frac{\partial&space;U}{\partial&space;z_i}" title="f_{on\: i,z}=-\frac{\partial U}{\partial z_i}" /></a>
 
-TASK 1: In the harmonic_motion.py program you will update two sections: the f() function block, where you'll work on calculating the forces on the two particles, and the two lines with the comment "choose your favorite ODE solver here", where you choose between Euler and RK2. Generate the trajectories of the two particles. An example output using a the Runge-Kutta 2nd order solver is attached in "example trajectory.png".
+TASK 1: In the harmonic_motion.py program, choose a timestep dt based on the period of the two-particle oscillation. For example, dt = some number times period.
 
-TASK 2: Comment out the entire "ODE solving and plotting" section, and uncomment the second "ODE solving and animation" section to activate it. You should see an animation of the simulation. And example output is given in "example animation.gif". You don't need to generate the gif - just make the the code generates the animation in your popup window and finalize your code that way before submission. Describe how the particles's motion can be considered a superposition of multiple types of simple motions. Did you expect this before the simulation by just looking at the initial conditions? 
+TASK 2: Finish the rest of the code. This includes the diffeq() function where you calculate all forces, choosing an ODE solver, and plotting the trajectories of the two particles. An example output using a the Runge-Kutta 2nd order solver is attached in "example trajectory.png".
 
+TASK 3: On top of the existing plot, plot the trajectory of the center-of-mass of the two-particle system. Estimate the center-of-mass velocity and explain how it relates to the initial velocities provided in the simuation. If it's not clear to you why we're doing this or what motion are the two particles performing, proceed to Problem 2 and return back to this task later.
 
 
 
